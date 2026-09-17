@@ -1,4 +1,4 @@
-const projects = [
+const projects: { id: string, title: string, description: string, imageUrl: string }[] = [
     {
         id: "1",
         title: "Linux XInput Bridge",
@@ -22,7 +22,7 @@ export default function Projects() {
     )
 }
 
-function ProjectCard({ imageUrl, title, description }) {
+function ProjectCard({ imageUrl, title, description }: { imageUrl: string, title: string, description: string }) {
     return (
         <div className="p-2 gap-2 flex-col max-w-[260px] border-2 p-4 box-border rounded-md flex justify-center">
             <img src={imageUrl} width="200" height="200"/>
