@@ -36,7 +36,7 @@ function MainPage() {
         <div className="flex flex-col gap-4 text-center">
           <h1 className="text-4xl font-bold leading-snug text-wrap">Expirence</h1>
           
-          <ol class="relative left-1/2 -translate-x-1/2 -ml-4 max-w-[280px] md:max-w-[400px] border-s border-default">                  
+          <ol className="relative left-1/2 -translate-x-1/2 -ml-4 max-w-[280px] md:max-w-[400px] border-s border-default">                  
               <ol className="relative border-s border-default">
               {/* Mindcloud */}
               <li className="mb-10 ms-6">
