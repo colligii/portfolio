@@ -6,7 +6,7 @@ function MainPage() {
     <>
       <div id="background"><div></div></div>
       <header className="flex bg-[rgba(0,0,0,0.9)] md:bg-inherit gap-2.5 flex-col md:flex-row fixed flex items-center justify-between header py-4 w-full z-20">
-        <a href="#home" className="relative sm:w-fit flex flex-col md:w-48 h-10">
+        <a href="#home" className="relative w-34 flex flex-col md:w-48 h-10">
           <h1 className="text-lg font-bold">Giovanne Colli</h1>
           <span className="absolute mt-6 md:mt-5 text-sm">Backend Developer</span>
         </a>
